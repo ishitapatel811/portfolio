@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18,18,62);
+}
+nav .left{
+    font-size: 30px;
+    font-family: cursive;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.01rem;
+    color: rgb(181, 181, 250);
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(181, 181, 250);
+    height: 1px;
+    margin: 30px 84px;
+}
+.left{
+    font-size:medium;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.firstSection > div{
+    width: 40%;
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(41, 41, 110);
+}
+.leftSection .buttons{
+    padding: 20px 0;
+}
+.leftSection .buttons :hover{
+    background-color: rgb(159, 68, 245);
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+    border-radius: 30%;
+} 
+.purple{
+    color: rgb(204, 154, 251);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection div{
+    text-align:center;
+    margin: 20px;
+}
+.secondSection div p{
+    color: rgb(154, 148, 148);
+    margin: 10px;
+}
+
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.thirdSection h1{
+    font-size: 1.9rem;
+}
+.thirdSection div{
+    text-align:center;
+    margin: 20px;
+    text-overflow: clip;
+}
+.thirdSection div p{
+    color: rgb(154, 148, 148);
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(30 30 52);
+    padding: 50px;
+}
+.footer{
+    display: flex;
+    padding: 1px;
+    justify-content: space-evenly;
+}
+.footer-first h3{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-first div{
+    text-align:center;
+}
+.rightSec{
+    margin: 20px;
+}
